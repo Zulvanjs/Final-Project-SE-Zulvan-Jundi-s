@@ -1,0 +1,20 @@
+#Hospital Admission(Proses pendaftaran data pasien rawat inap)
+begin
+      READ AND WRITE "Admission"
+      if "New patient is false"
+          READ AND WRITE "Data tracer dan RMK old patient"
+          PRINT " RMK "
+          READ AND WRITE "Data the patient treatment on hospital" with string
+          READ AND WRITE "name_patient" with string
+          READ AND WRITE "Date _of birth" with string 
+          READ AND WRITE "Gender" with string
+          READ AND WRITE "adress" With string
+          READ AND WRITE "Treatment" with string 
+          READ AND WRITE "to determite of treatment class on hospital"
+          READ AND WRITE "patient are doing accepted statement and given a signature"
+          READ AND WRITE "RMK rawat inap disiapkan"
+          READ AND WRITE "patient payment of adminitration at casier"
+          READ AND WRITE "the document given to staff"
+       ELSE
+         Return Print "RMK and RRK"
+    Done 
